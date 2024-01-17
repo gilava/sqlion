@@ -1,0 +1,1 @@
+export * as MySqlAdapter from './mysql'

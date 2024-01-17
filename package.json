@@ -1,0 +1,22 @@
+{
+  "name": "sqlion",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint --ext .js .",
+    "prettier-check": "prettier --check .",
+    "test": "sst bind vitest"
+  },
+  "keywords": [
+    "MySql"
+  ],
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "mysql2": "^3.6.3",
+    "prettier": "^3.2.2"
+  },
+  "main": "index.js",
+  "author": "",
+  "license": "MIT",
+  "description": ""
+}
