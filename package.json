@@ -1,22 +1,29 @@
 {
   "name": "sqlion",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "type": "module",
+  "description": "Tools for manage connection pool, transaction and construct sql statement, currently support MySQL only",
+  "main": "index.js",
   "scripts": {
     "lint": "eslint --ext .js .",
     "prettier-check": "prettier --check .",
     "test": "sst bind vitest"
   },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.2"
+  },
+  "dependencies": {
+    "mysql2": "^3.8.0"
+  },
   "keywords": [
     "MySql"
   ],
-  "devDependencies": {
-    "eslint": "^8.56.0",
-    "mysql2": "^3.6.3",
-    "prettier": "^3.2.2"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gilava/sqlion"
   },
-  "main": "index.js",
-  "author": "",
+  "author": "gilava",
   "license": "MIT",
-  "description": ""
+  "homepage": "https://github.com/gilava/sqlion"
 }
